@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <title>Soft VPN</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><i class="fas fa-align-left"></i></li>
+            </ul>
+        </nav>
+        <h1>Soft VPN</h1>
+    </header>
+
+    <main>
+        <section class="connect">
+            <div class="status-connect">
+                <p class="subtitulo">Status</p>
+                <p class="titulo">Connected</p>
+            </div>
+
+            <div class="your-ip">
+                <p class="subtitulo">Your IP</p>
+                <p class="titulo my-ip">127.0.0.1:8080</p>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="timer">
+            <div class="connection-time">
+                <p class="subtitulo">Connection time</p>
+                <p class="clock">00:00</p>
+            </div>
+        </section>
+        
+        <section class="btn-timer">
+            <div class="border-clock">
+                <button class="start" id="btn-clock">
+                    <i class="fal fa-power-off fa-7x"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="box-sel">
+            <select id="select">
+                <option value="Brazil">Brasil</option>
+                <option value="United states">Estados Unidos</option>
+                <option value="Japan">Japão</option>
+            </select>
+        </section>
+
+        <section class="speed-connect">
+            <div class="upload">
+                <p class="subtitulo">Upload</p>
+                <p><i class="far fa-arrow-up arrow-up"></i> <span class="val-upload">0</span> Mb/s</p>
+            </div>
+            <div class="download">
+                <p class="subtitulo">Download</p>
+                <p><i class="far fa-arrow-down arrow-down"></i> <span class="val-download">0</span> Mb/s</p>
+            </div>
+        </section>
+
+        <footer>
+            <button><i class="far fa-crown"></i> Get premium</button>
+        </footer>
+    </main>
+
+
+</body>
+</html>
